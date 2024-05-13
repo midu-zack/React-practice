@@ -1,7 +1,8 @@
-import React, { Component } from "react";
+import React, {PureComponent } from "react";
 
-class List extends Component {
+class List extends PureComponent {
   state = {
+    score : 10 ,
     data: [
       {
         id: 1,
@@ -16,17 +17,29 @@ class List extends Component {
     ],
   };
 
-  componentDidMount(){
-    alert()
-    // console.log('running');
+  // componentDidMount(){
+  //   alert()
+  //   // console.log('running');
+  // }
+
+  increment=()=>{
+
+    this.setState({
+      score : 23
+    })
+   
   }
+
   render() {
+    console.log(this.state.score);
     return (
       <div>
         <ul>{this.state.data.map((value,index)=>{
           return <li key={value.id}>{value.name}</li>
 
         })}</ul>
+
+        <button onClick={this.increment}>Score</button>
       </div>
     );
   }
