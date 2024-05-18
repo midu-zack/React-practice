@@ -1,8 +1,10 @@
 import React  , { Component } from "react";
 
 class Zack extends Component {
-    render (props){
-        return <h1>SAY TO ME  {props.name} </h1>
+    render (){
+        const { name,test } = this.props
+
+        return <h1>SAY TO ME  {name} mid {test} </h1>
     }
 }
 
