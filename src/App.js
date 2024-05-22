@@ -13,6 +13,7 @@ import "./App.css";
 // import NameList from "./component/NameList"
 // import PureComponent from "./component/PureComponent"
 // import RefDemo from "./component/RefDemo"
+
 import Effect from "./component/Effect";
 
 class App extends Component {

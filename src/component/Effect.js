@@ -4,8 +4,11 @@
     const [value,setValue]= useState(0);
 
     useEffect(()=>{
-      console.log(`your click ${value} times`)
-    })
+      console.log(`your click ${value} times`)  //mount
+      return  console.log('clear this function ') // unmount
+     
+    },[value] //updating
+  )
 
    return (
      <div>
