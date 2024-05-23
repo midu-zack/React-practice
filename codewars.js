@@ -12,3 +12,14 @@
 
 // console.log('this is min', min, max);
 // console.log('Missing numbers:', dubArr);
+
+// const arg = "Hello World"
+// var createHelloWorld = function (arg) {
+
+//     return function()
+//     {return arg}
+// }
+
+ 
+ 
+// createHelloWorld(arg)
