@@ -58,13 +58,19 @@ import Effect from "./component/Effect";
 import Justinfo from "./component/Justinfo";
 import Memo from "./component/Memo";
 import Ref from "./component/Ref";
+import Reducer from "./component/Reducer";
 
 function App() {
   const valueToProvide = { someData: "Hello from Context!" }; // Example value
 
   return (
     <div>
+
+
+    
+
       <MyContext.Provider value={valueToProvide.someData}>
+
         <h1>Welcome To React-Learning Plat Form</h1>
         {/* <Counter /> */}
         {/* <Forms /> */}
@@ -85,7 +91,9 @@ function App() {
         <Effect />
         <Justinfo/>
         <Ref/>
+      
       </MyContext.Provider>
+      <Reducer/>
     </div>
   );
 }

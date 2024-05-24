@@ -9,9 +9,12 @@
 //     dubArr.push(i);
 //   }
 // }
-
 // console.log('this is min', min, max);
 // console.log('Missing numbers:', dubArr);
+
+
+
+// {****** JavScript Challenge 1  *********}
 
 // const arg = "Hello World"
 // var createHelloWorld = function (arg) {
@@ -19,7 +22,15 @@
 //     return function()
 //     {return arg}
 // }
-
- 
- 
 // createHelloWorld(arg)
+
+
+// {****** JavScript Challenge 2  *********}
+
+// var createCounter =function(n){
+//     return function(){
+//         return  n++
+//     }
+// }
+//  let result = createCounter(10)
+//  console.log(result(),result(),result())
