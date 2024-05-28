@@ -34,3 +34,18 @@
 // }
 //  let result = createCounter(10)
 //  console.log(result(),result(),result())
+
+
+
+// {****** JavScript Challenge 3  *********}
+
+var expect = function(val) {
+    function toBe(test){
+        if(val === test){
+             return true;
+        }
+    }
+    return toBe()
+};
+
+console.log(expect(3).toBe(3))

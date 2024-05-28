@@ -54,11 +54,13 @@ import "./App.css";
 // import NameList from "./component/NameList"
 // import PureComponent from "./component/PureComponent"
 // import RefDemo from "./component/RefDemo"
-import Effect from "./component/Effect";
-import Justinfo from "./component/Justinfo";
-import Memo from "./component/Memo";
-import Ref from "./component/Ref";
-import Reducer from "./component/Reducer";
+// import Effect from "./component/Effect";
+// import Justinfo from "./component/Justinfo";
+// import Memo from "./component/Memo";
+// import Ref from "./component/Ref";
+// import Reducer from "./component/Reducer";
+ 
+import Daytask from "./component/Daytask";
 
 function App() {
   const valueToProvide = { someData: "Hello from Context!" }; // Example value
@@ -86,14 +88,16 @@ function App() {
         {/* <State />  */}
         {/* <UseState/> */}
 
-        <Memo/>
+        {/* <Memo/> */}
 
-        <Effect />
-        <Justinfo/>
-        <Ref/>
+        {/* <Effect /> */}
+        {/* <Justinfo/> */}
+        {/* <Ref/> */}
+
+      <Daytask/>
       
       </MyContext.Provider>
-      <Reducer/>
+      {/* <Reducer/> */}
     </div>
   );
 }
