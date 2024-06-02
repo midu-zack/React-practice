@@ -61,6 +61,7 @@ import "./App.css";
 // import Reducer from "./component/Reducer";
  
 import Daytask from "./component/Daytask";
+import Testing from "./component/Testing";
 
 function App() {
   const valueToProvide = { someData: "Hello from Context!" }; // Example value
@@ -98,6 +99,7 @@ function App() {
       
       </MyContext.Provider>
       {/* <Reducer/> */}
+      <Testing/>
     </div>
   );
 }
