@@ -60,8 +60,9 @@ import "./App.css";
 // import Ref from "./component/Ref";
 // import Reducer from "./component/Reducer";
  
-import Daytask from "./component/Daytask";
-import Testing from "./component/Testing";
+// import Daytask from "./component/Daytask";
+// import Testing from "./component/Testing";
+import Card from "./component/Card";
 
 function App() {
   const valueToProvide = { someData: "Hello from Context!" }; // Example value
@@ -74,7 +75,7 @@ function App() {
 
       <MyContext.Provider value={valueToProvide.someData}>
 
-        <h1>Welcome To React-Learning Plat Form</h1>
+        {/* <h1>Welcome To React-Learning Plat Form</h1> */}
         {/* <Counter /> */}
         {/* <Forms /> */}
         {/* <List/> */}
@@ -95,11 +96,15 @@ function App() {
         {/* <Justinfo/> */}
         {/* <Ref/> */}
 
-      <Daytask/>
+      {/* <Daytask/> */}
       
+      <Card/>
       </MyContext.Provider>
       {/* <Reducer/> */}
-      <Testing/>
+      {/* <Testing/> */}
+
+
+
     </div>
   );
 }

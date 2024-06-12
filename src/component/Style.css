@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(202, 202, 202);
+ 
+    padding-top: 300px;
+}
+
+ 
+#sm{
+    display: inline-flex;
+    
+}
+
+#testing{
+    bottom: -22;
+
+}
