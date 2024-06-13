@@ -62,8 +62,8 @@ import "./App.css";
  
 // import Daytask from "./component/Daytask";
 // import Testing from "./component/Testing";
-import Card from "./component/Card";
-
+// import Card from "./component/Card";
+import Instagram from "./component/Instagram"
 function App() {
   const valueToProvide = { someData: "Hello from Context!" }; // Example value
 
@@ -98,7 +98,8 @@ function App() {
 
       {/* <Daytask/> */}
       
-      <Card/>
+      {/* <Card/> */}
+      <Instagram/>
       </MyContext.Provider>
       {/* <Reducer/> */}
       {/* <Testing/> */}

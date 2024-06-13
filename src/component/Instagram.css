@@ -1,0 +1,29 @@
+*{
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+
+    display: inline-grid;
+     
+    margin-bottom: 3px;
+ 
+}
+
+#main{
+    align-items: center;
+    justify-content: center;
+    border-radius: 3%;
+    display: flex;
+ 
+  
+}
+
+.testing{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    gap: 90px;
+    font-weight: 900;
+    font-size: 1vw;
+    font-size: 1.5vw;
+}
