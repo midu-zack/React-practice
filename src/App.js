@@ -1,46 +1,9 @@
-// import React, { Component } from "react";
-// import "./App.css";
-// // import State from "./component/State";
-// // import UseState from "./component/UseState";
-// // import Greet from "./component/FunctionComponent";
-// // import Message from "./component/Message";/
-// // import Zack from "./component/ClassComponent";
-// // import Counter from "./component/Counter";
-// // import Forms from "./component/Forms";
-// // import List from "./component/List";
-// // import FunctionClick from "./component/FunctionClick"
-// // import ClassClick from "./component/ClassClick";
-// // import NameList from "./component/NameList"
-// // import PureComponent from "./component/PureComponent"
-// // import RefDemo from "./component/RefDemo"
-
-// import MyContext from "./Context";
-
-// import Effect from "./component/Effect";
-// import Justinfo from "./component/Justinfo";
-
-// class App extends Component {
-//   render() {
-//     const valueToProvide = { someData: "Hello from Context!" }; // Example value
-
-//     return (
-//       <div className="App">
-//         <MyContext.Provider value={valueToProvide}>
-//           <Justinfo />
-//           <Effect />
-//         </MyContext.Provider>
-//       </div>
-//     );
-//   }
-// }
-
-// export default App;
-
 import MyContext from "./Context";
 import React from "react";
 
 
 import "./App.css";
+import Quiz from "./component/Quiz";
 // import State from "./component/State";
 // import UseState from "./component/UseState";
 // import Greet from "./component/FunctionComponent";
@@ -63,7 +26,7 @@ import "./App.css";
 // import Daytask from "./component/Daytask";
 // import Testing from "./component/Testing";
 // import Card from "./component/Card";
-import Instagram from "./component/Instagram"
+// import Instagram from "./component/Instagram"
 function App() {
   const valueToProvide = { someData: "Hello from Context!" }; // Example value
 
@@ -99,10 +62,11 @@ function App() {
       {/* <Daytask/> */}
       
       {/* <Card/> */}
-      <Instagram/>
-      </MyContext.Provider>
+      {/* <Instagram/> */}
       {/* <Reducer/> */}
       {/* <Testing/> */}
+      <Quiz/>
+      </MyContext.Provider>
 
 
 
