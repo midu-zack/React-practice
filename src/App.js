@@ -27,6 +27,8 @@ import Quiz from "./component/Quiz";
 // import Testing from "./component/Testing";
 // import Card from "./component/Card";
 // import Instagram from "./component/Instagram"
+import ConditionalRendring from "./component/ConditionalRendering"
+
 function App() {
   const valueToProvide = { someData: "Hello from Context!" }; // Example value
 
@@ -65,7 +67,11 @@ function App() {
       {/* <Instagram/> */}
       {/* <Reducer/> */}
       {/* <Testing/> */}
-      <Quiz/>
+      {/* <Quiz/> */}
+     
+     <ConditionalRendring/>
+
+
       </MyContext.Provider>
 
 
